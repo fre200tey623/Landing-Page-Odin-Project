@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+* {
+    /*border: 2px solid red;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+/*Estilo referente a primeira div*/
+
+.conteudoPrimeiraDiv{
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    
+}
+
+.conteudoPrimeiraDivFinal {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.conteudoPrimeiraDivCabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.conteudoPrimeiraDivCabecalho h1{
+    
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.conteudoPrimeiraDivCabecalhoLinks{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.conteudoPrimeiraDivCabecalhoLinks a {
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+.conteudoPrimeiraDivCorpo{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    padding-top: 30px;
+    
+}
+
+.conteudoPrimeiraDivCorpoTexto{
+    margin-right: 10%;
+}
+
+.conteudoPrimeiraDivCorpoTexto h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.conteudoPrimeiraDivCorpoTexto h2{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+    font-weight: 300;
+
+}
+
+.conteudoPrimeiraDivCorpo img{
+    width: 400px;
+}
+
+.conteudoPrimeiraDivCorpo button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 8px 32px 8px 32px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+/*Estilo referente a segunda div*/
+
+.conteudoSegundaDiv{
+    padding-bottom: 180px;
+}
+
+
+.conteudoSegundaDivHeader{
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+}
+
+.conteudoSegundaDivHeader h1{
+
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color:#1F2937;
+}
+
+.conteudoSegundaDivCorpo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1F2937;
+}
+.conteudoSegundaDivCorpo{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.conteudoSegundaDivCorpo h3{
+    text-align: center;
+}
+
+/*Estilo referente a terceira div*/
+
+.conteudoTerceiroDiv{
+    background-color:#E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.conteudoTerceiroDivHeader h2{
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.conteudoTerceiroDivCorpo h3{
+    margin-top: 0px;
+    text-align: end;
+}
+
+/*Estilo referente a quarta div*/
+
+.conteudoQuartaDivFinal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.conconteudoQuartaDivHeader h1{
+    color: aliceblue;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.conconteudoQuartaDivHeader h2{
+    color: aliceblue;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.conconconteudoQuartaDivCorpo button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 8px 32px 8px 32px;
+    border-radius: 5px;
+    border-style: solid;
+    font-weight: 700;
+    text-align: center;
+    border-color: aliceblue;
+}
+
+
+/*Estilo referente ao rodape da pagina*/
+
+.footerStyle{
+    background-color: #1F2937;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+
+
+
